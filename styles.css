@@ -1,23 +1,29 @@
+@font-face {
+    src: url(Game.otf);
+    font-family: game;
+}
+/*
+#5996FE, #279211, #964822, #B17E73
+*/
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    font-family: game;
+    background: #5996FE;
     color: #ffffff;
 }
 
 h1, h2, h3, h4, p {
-    text-shadow: 0 0 1px black;
+    text-shawdow: 0 0 2px black;
 }
 
 #bff-img {
     width: 150px;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #EFB0C9;
+    background: #279211;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
@@ -25,7 +31,7 @@ h1, h2, h3, h4, p {
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
+    background: #279211;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -56,9 +62,8 @@ h1, h2, h3, h4, p {
     margin: 20px auto;
     max-width: 400px;
     height: 400px;
-    border: 6px solid white;
     border-radius: 10px;
-    background-image: url("images/gift-cover.jpg");
+    background-image: url("https://mario.wiki.gallery/images/thumb/7/7f/Question_Block_-_Nintendo_JP_website.png/1200px-Question_Block_-_Nintendo_JP_website.png");
     background-size: cover;
 }
 
@@ -91,15 +96,3 @@ h1, h2, h3, h4, p {
 a {
     color: white;
 }
-
-/* 
-Add the footer paragraph according to the design. 
-Configure the anchor tag to open the link in a new tab.
-Forgotten how to do it? Google it! 
-
-Link: 
-https://scrimba.com/learn/htmlandcss
-
-Text:
-Want to create your own Birthday GIFt site? Take this HTML & CSS course.
-*/
